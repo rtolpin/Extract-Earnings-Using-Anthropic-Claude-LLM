@@ -61,8 +61,6 @@ if not _api_key:
     raise RuntimeError("ANTHROPIC_API_KEY is not set...")
 _client = Anthropic(api_key=_api_key)
 
-# `Right now I have a hardcoded key in the script for convenience. Long-term, we’ll want to remove that and rely on the environment variable only, for security.`
-
 ## Input PDFs
 
 The script expects these files to exist in the same directory (or you can change the paths in `main()`):
