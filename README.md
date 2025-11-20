@@ -12,7 +12,7 @@ This project automates what a typical equity research team (or buy-side analyst)
  - Core financials: revenue, net income, EPS, cash flow, EBITDA, margins
  - Segment-level metrics (Citi & Tesla business lines)
  - Key metrics and guidance
- - `Write everything into a multi-sheet Excel file that a financial analyst can use directly.`
+ - # Write everything into a multi-sheet Excel file that a financial analyst can use directly.
 
 Design goals:
 - High accuracy: use only numbers explicitly present in the PDFs.
