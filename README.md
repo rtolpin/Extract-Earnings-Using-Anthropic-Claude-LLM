@@ -61,6 +61,8 @@ if not _api_key:
     raise RuntimeError("ANTHROPIC_API_KEY is not set...")
 _client = Anthropic(api_key=_api_key)
 
+# For now: replace _api_key = "[PLACE YOUR API KEY HERE]" with your Claude Anthropic API Key
+
 ## Input PDFs
 
 The script expects these files to exist in the same directory (or you can change the paths in `main()`):
@@ -71,6 +73,8 @@ The script expects these files to exist in the same directory (or you can change
 Place those PDFs next to earnings_tsla_citi.py.
 
 ## How to Run the Script
+
+# replace _api_key = "[PLACE YOUR API KEY HERE]" with your Claude Anthropic API Key
 
 From the project directory (and with your venv activated):
 
